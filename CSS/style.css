@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Share Tech Mono', monospace;
+    background-color: rgb(13, 13, 14);
+    color: ghostwhite;
+    line-height: 1.5rem;
+}
+.wrapper {
+    height: 93.5vh;
+}
+header {
+    max-width: 52rem;
+    padding: 0 1rem;
+    padding-bottom: 1rem;
+}
+h1 {
+    padding-top: 1rem;
+    font-size: 1.1rem;
+    border-right: mediumspringgreen solid;
+    font-weight: 400;
+}
+.terminal {
+    animation: blink 1s infinite step-end;
+   }
+   
+   @keyframes blink {
+     from, to { opacity: 0; }
+     
+     50% {opacity: 1;}
+   }
+.desig {
+       padding-left: 1.2rem;
+   }
+.container {
+    max-width: 52rem;
+    padding: 0 1rem;
+}
+.stack {
+    padding-top: 1rem;
+}
+h4 {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.dollar {
+    font-family: 'Times New Roman', Times, serif;
+}
+ul {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+li {
+    list-style: inside;
+}
+a {
+    color: #2fff2f;
+}
+footer {
+    border-top: ghostwhite dotted;
+    max-width: 52rem;
+    padding: 0 1rem;
+}

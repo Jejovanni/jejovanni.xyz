@@ -18,10 +18,11 @@ header {
 h1 {
     padding-top: 1rem;
     font-size: 1.1rem;
-    border-right: mediumspringgreen solid;
     font-weight: 400;
 }
 .terminal {
+    color: #2fff2f;
+    font-size: 18px;
     animation: blink 1s infinite step-end;
    }
    

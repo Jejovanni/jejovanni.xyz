@@ -34,6 +34,10 @@ h1 {
 .desig {
        padding-left: 1.2rem;
    }
+.mail {
+    font-size: 1.2rem;
+    float: right;
+}
 .container {
     max-width: 52rem;
     padding: 0 1rem;
@@ -69,4 +73,9 @@ footer {
 }
 footer li {
     list-style: none;
+}
+@media screen and (min-width: 768px) {
+    footer{
+        max-width: 100%;
+    }
 }
